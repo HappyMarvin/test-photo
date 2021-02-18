@@ -4,4 +4,7 @@
 
 ###iHappyMarvin@yandex.ru
 
+gh-pages:
+https://happymarvin.github.io/test-photo/
+
 Запуск: npm start
