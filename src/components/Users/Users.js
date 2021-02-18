@@ -17,8 +17,8 @@ function Users() {
       <h1 className="users__title">Список пользователей</h1>
       <ul className="users__list">
         {users.map(user => (
-          <li className="users__item">
-            <Link className="users__link" to={`user/${user.id}`} key={user.id}>
+          <li className="users__item" key={user.id}>
+            <Link className="users__link" to={`user/${user.id}`}>
               {user.name}
             </ Link>
           </li>
