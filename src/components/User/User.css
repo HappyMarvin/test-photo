@@ -1,0 +1,16 @@
+.user__title {
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.user__list {
+  margin: auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 205px);
+  gap: 20px;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+}

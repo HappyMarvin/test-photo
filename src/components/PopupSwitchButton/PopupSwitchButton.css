@@ -1,0 +1,25 @@
+.popup__switch {
+  position: absolute;
+  top: calc(50% - 35px);
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #fff;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  outline: none;
+}
+
+.popup__switch:hover {
+  opacity: 0.8;
+}
+
+.popup__switch_right {
+  right: -70px;
+}
+
+.popup__switch_left {
+  left: -70px;
+}

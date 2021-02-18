@@ -1,0 +1,24 @@
+.photos-item {
+  margin: 0;
+  padding: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.photos-item:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.photos-item__title {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  font-weight: 400;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

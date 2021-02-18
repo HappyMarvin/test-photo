@@ -1,0 +1,30 @@
+.albums-item {
+  margin: 0;
+  padding: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.albums-item:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.albums-item__title {
+  margin: 0 0 7px 0;
+  font-size: 20px;
+  font-weight: 400;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.albums-item__link {
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #000;
+}
