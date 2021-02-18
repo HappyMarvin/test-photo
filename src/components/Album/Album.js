@@ -37,11 +37,9 @@ function Album (props) {
   }
 
   const handleSwitchPhoto = (isRight) => {
-    console.log(isRight);
     const direction = isRight ? 1 : -1
     setPhotoForPopup(photos[isRight ? indexForPopup + 1 : indexForPopup - 1])
     setIndexForPopup(isRight ? indexForPopup  + 1 : indexForPopup - 1)
-    console.log('test');
   }
 
   return (
